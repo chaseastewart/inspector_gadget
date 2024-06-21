@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "inspector"
+authors = ["Chase Stewart <chase.a.stewart@outlook.com>"]
+description = "Gadget to inspect CDAs"
+version = "0.0.1"
+license = "MIT"
+
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+python-fhir-converter = "^0.1.0"
+jsonpath-ng = "^1.6.1"
